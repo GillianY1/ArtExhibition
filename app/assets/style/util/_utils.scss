@@ -1,0 +1,11 @@
+/*@include media-breakpoint-down(md) {
+    .w-md-50 {
+      width: 50%;
+    }
+}*/
+
+@include media-breakpoint-up(md) {
+    .w-md-auto {
+      width: auto!important;
+    }
+  }
