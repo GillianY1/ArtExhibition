@@ -1,10 +1,45 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header class='border border-softgray'>
+    <nav class="navbar navbar-expand-lg navbar-light  container justify-content-lg-center py-lg-7 py-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class='text-center fs-4 fw-bold '><a href="/">EXHIBINECTION</a></h1>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class='nav-link text-softgray me-lg-6' aria-current="page" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class='nav-link text-softgray me-lg-6' href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class='d-flex'>
+        <span class="material-icons">
+          confirmation_number
+        </span>
+      </a>
+    </nav>
+  </header>
+
+  
 <div class="mybanner">
   <div class='container'>
     <div class="row">
@@ -64,3 +99,13 @@ current: index
     </div>
   </div>
 </div>
+
+    <footer class="footer">
+      footer
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
